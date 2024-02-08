@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
+import image17 from "./images/image17.jpg"
 const Weather = () => {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(false);
@@ -22,6 +22,7 @@ const Weather = () => {
     .catch(error => {
       console.error('Error fetching random image:', error);
       setLoading(false);
+      setBackgroundImage(image17);
     });
   };
 
