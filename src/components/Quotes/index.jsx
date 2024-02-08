@@ -64,7 +64,7 @@ const Weather = () => {
       onClick={handleBackgroundClick}
     >
       <div className="min-h-screen  flex-col flex items-center justify-center ">
-          <div className="text-7xl font-extrabold mb-4">
+          <div className="text-5xl font-extrabold mb-4">
             <span className="bg-clip-text text-white bg-gradient-to-r from-pink-500 to-violet-500">
            <div className="bg-clip-text text-white bg-gradient-to-r from-pink-500 to-violet-500">
 
